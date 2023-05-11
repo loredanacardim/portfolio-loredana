@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 66px 7px;
+  transition: all 0.5s ease 0s;
+  background: black;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 4rem;
+}
+
+/* .opcoes {
+  display: flex;
+  gap: 80px;
+} */
+
+.topicos {
+  list-style-type: none;
+}
+
+.topicos__nomes {
+  display: inline-block;
+}
+
+.topicos__links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff0f35;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  color: rgb(238, 174, 202);
+  background: linear-gradient(
+    179.4deg,
+    rgba(132, 56, 122, 1) 14.6%,
+    rgba(190, 24, 49, 1) 104.7%
+  );
+  box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 20px 7px;
+  color: black;
+}
+
+.container__caixa {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.textos {
+  margin: 2rem;
+}
+
+.apresentacao__titulo {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.apresentacao__paragrafo {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.foto__perfil {
+  width: 15%;
+}
+
+.apresentacao {
+  margin-top: 0.5rem;
+  padding: 5% 15%;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+  text-align: center;
+  background-color: #8e6d86;
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  ); */
+}
+.aboutme {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.apresentacao__about {
+  font-size: 2.25rem;
+  font-family: 'Krona One', sans-serif;
+}
+
+.about__paragrafo {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  color: black;
+}
+
+.projetos {
+  margin-top: 0.5rem;
+  padding: 5% 15%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  background-color: #c7b6be;
+}
+
+.paragrafo__projetos {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+.linguagens {
+  display: flex;
+}
+.linguagens h6 {
+  font-size: 17px;
+  padding: 1rem;
+  border: 1px solid;
+  position: relative;
+  cursor: pointer;
+  color: rgb(25, 22, 39);
+  transition: all 0.5s ease 0s;
+}
+
+.lista__projetos {
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.espaco__projetos__espaco {
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+}
+
+.area__projeto {
+  box-sizing: border-box;
+  display: grid;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-template-columns: 350px 350px;
+}
+
+.container__projetos {
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+  max-width: 18rem;
+  box-shadow: rgba(5, 5, 5, 0.3) 0px 10px 16px -6px,
+    rgba(5, 5, 5, 0.1) 0px 25px 10px -24px;
+}
+
+.imagem__projetos {
+  border-radius: 0.7rem;
+  width: 100%;
+  height: 10rem;
+}
+
+.textos__projetos {
+}
+
+.projetos__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  padding: 1.5em;
+}
+
+.projetos__tecnologias {
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.projetos__tecnologias h6 {
+  font-size: 8px;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin: 0.3rem;
+  color: rgb(255, 255, 255);
+  background: rgb(25, 22, 39);
+}
+
+.projetos__links {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.botao__projetos {
+  background: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 0.6rem;
+  text-decoration: none;
+}
+
+.imagem__botao {
+  width: 25px;
+}
+
+.rodape {
+  padding: 10px;
+  color: #ff0f35;
+  background-color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 0;
+  box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 66px 7px;
+}
+
+@media (max-width: 800px) <style > .csnwHt {
+  text-align: center;
+  height: 100vh;
+  padding-top: 7rem;
+  padding-bottom: 0rem;
+}
