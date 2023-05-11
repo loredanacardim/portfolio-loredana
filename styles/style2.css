@@ -14,7 +14,7 @@
   justify-content: space-around;
   box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 66px 7px;
   transition: all 0.5s ease 0s;
-  background: black;
+  background: #0a0a0a;
   position: fixed;
   top: 0px;
   z-index: 999;
@@ -39,7 +39,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #ff0f35;
+  color: white;
   text-decoration: none;
   margin: 10px;
 }
@@ -51,11 +51,7 @@
   padding-top: 10rem;
   padding-bottom: 4rem;
   color: rgb(238, 174, 202);
-  background: linear-gradient(
-    179.4deg,
-    rgba(132, 56, 122, 1) 14.6%,
-    rgba(190, 24, 49, 1) 104.7%
-  );
+  background: #582654;
   box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 20px 7px;
   color: black;
 }
@@ -103,6 +99,7 @@
   gap: 82px;
   text-align: center;
   background-color: #8e6d86;
+  box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 20px 7px;
   /* background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -139,6 +136,7 @@
   gap: 30px;
   align-items: center;
   background-color: #c7b6be;
+  box-shadow: rgba(0, 4, 8, 0.91) 2px 3px 20px 7px;
 }
 
 .paragrafo__projetos {
