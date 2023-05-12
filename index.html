@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Loredana's Portfolio</title>
     <link rel="stylesheet" href="./styles/style2.css" />
   </head>
   <body>
@@ -12,21 +12,18 @@
       <nav class="opcoes">
         <ul class="topicos">
           <li class="topicos__nomes">
-            <a href="#inicio" class="topicos__links">Inicio</a>
+            <a href="#inicio" class="topicos__links">Home</a>
           </li>
           <li class="topicos__nomes">
-            <a href="#inicio" class="topicos__links">Sobre</a>
+            <a href="#about-me" class="topicos__links">About Me</a>
           </li>
           <li class="topicos__nomes">
-            <a href="#inicio" class="topicos__links">Projects</a>
-          </li>
-          <li class="topicos__nomes">
-            <a href="#inicio" class="topicos__links">Aplicativos</a>
+            <a href="#projetos" class="topicos__links">Projects</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="inicio">
+    <section id="inicio" class="inicio">
       <div class="container__caixa">
         <div class="textos">
           <h2 class="apresentacao__titulo">Hello, I'm Loredana :)</h2>
@@ -37,18 +34,14 @@
         <img class="foto__perfil" src="/assets/foto.png" alt="Minha Foto" />
       </div>
     </section>
-    <section class="about me">
+    <section id="about-me" class="about-me">
       <div class="aboutme">
         <div class="apresentacao">
           <h2 class="apresentacao__about">About me</h2>
           <p class="about__paragrafo">
             Hi there! My name is Loredana Cardim, and I'm a front-end developer
             with a passion for creating beautiful, user-friendly websites and
-            applications. In addition, I'm currently a student of Electrical
-            Engineering, with a focus on high voltage electrical networks. I'm
-            interested in specializing in this area to gain a deeper
-            understanding of the technical aspects of building and managing
-            complex electrical systems.
+            applications.
           </p>
           <p class="about__paragrafo">
             As a front-end developer, I have 3 years of experience working with
@@ -66,46 +59,139 @@
             designers to bring their concepts to life.
           </p>
           <p class="about__paragrafo">
-            When I'm not coding, you can usually find me with my nose buried in
-            a good book or tending to my plant collection. I'm also a big fan of
-            binge-watching TV series in my downtime.
-          </p>
-
-          <p class="about__paragrafo">
-            While I haven't yet had the opportunity to work professionally in
-            the field of programming, I've been working on personal projects to
-            develop my skills, and you can find some of these projects on my
-            portfolio page. I like to enjoy the challenge of finding creative
-            solutions to problems and delivering high-quality work on time and
-            on budget.
-          </p>
-          <p class="about__paragrafo">
             I'm excited to bring my skills and experience to your team and help
             create outstanding digital experiences for your users. If you have
             any questions or want to learn more about my work, feel free to
             reach out to me.
           </p>
+          <div class="contatos__links">
+            <a href="https://www.linkedin.com/in/loredana-cardim/" target="_blank" rel="noneferrer">
+              <button class="botao__contatos">
+                <img src="/assets/linkedin.png" alt="Linkedin" class="imagem__botao__contato"
+                />
+                <span class="texto-botao">Linkedin</span>
+                
+              </button>
+            </a>
+
+            <a href="" target="_blank" rel="noneferrer">
+              <button class="botao__contatos">
+                <img src="/assets/gmail.png" alt="Email" class="imagem__botao__contato">E-mail
+              </button>
+            </a>
+          </div>
         </div>
       </div>
+      
     </section>
 
-    <section class="projetos">
+    <section id="projetos" class="projetos">
       <h2 class="apresentacao__about">Projects</h2>
       <p class="paragrafo__projetos">
         Aqui você vai encontrar alguns projetos realizados
       </p>
-      <div class="linguagens">
-        <h6>Web</h6>
-        <h6>C/C++</h6>
-        <h6>Mobile</h6>
-      </div>
-      <div class="lista__projetos">
-        <div class="">
-          <div class="">
-            <div class="espaco__projeto">
-              <div class="espaco__projetos__espaco">
-                <div class="area__projeto">
-                  <div class="container__projetos">
+
+      <nav>
+          <ul class="linguagens">
+            <li class="linguagens__titulos"><a href="#conteudo1" onclick="carregarconteudo('conteudo1')">Web</a></li>
+            <li class="linguagens__titulos"><a href="#conteudo2" onclick="carregarconteudo('conteudo2')">C/C++</a></li>
+            <li class="linguagens__titulos"><a href="#conteudo3" onclick="carregarconteudo('conteudo3')">Mobile</a></li>
+          </ul>
+      </nav>
+     
+      <section id="secao">
+        <div id="conteudo1" class="conteudo">
+          <div class="container__projetos">
+            <img
+              class="imagem__projetos"
+              src="/assets/AluraBooks.jpg"
+              alt=""
+            />
+            <div class="textos__projetos">
+              <div class="projetos__titulo">
+                <h2>AluraBooks</h2>
+              </div>
+              <div class="projetos__tecnologias">
+                <h6>CSS</h6>
+                <h6>HTML</h6>
+              </div>
+            </div>
+            <div class="projetos__links">
+              <a href="" target="_blank" rel="noreferrer">
+                <button class="botao__projetos">
+                  <img
+                    src="/assets/computador.png"
+                    alt="Visitar"
+                    class="imagem__botao"
+                  />
+                  Visitar
+                </button>
+              </a>
+              <a
+                href="https://github.com/loredanacardim/alurabook"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button class="botao__projetos">
+                  <img
+                    src="/assets/git.png"
+                    alt="Repositorio"
+                    class="imagem__botao"
+                  />
+                  Repositorio
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="conteudo2" class="conteudo" style="display: none;">
+          <div class="container__projetos">
+                    <img
+                      class="imagem__projetos"
+                      src="/assets/AluraBooks.jpg"
+                      alt=""
+                    />
+                    <div class="textos__projetos">
+                      <div class="projetos__titulo">
+                        <h2>AluraPlus</h2>
+                      </div>
+                      <div class="projetos__tecnologias">
+                        <h6>CSS</h6>
+                        <h6>HTML</h6>
+                      </div>
+                    </div>
+                    <div class="projetos__links">
+                      <a href="" target="_blank" rel="noreferrer">
+                        <button class="botao__projetos">
+                          <img
+                            src="/assets/computador.png"
+                            alt="Visitar"
+                            class="imagem__botao"
+                          />
+                          Visitar
+                        </button>
+                      </a>
+                      <a
+                        href="https://github.com/loredanacardim/alurabook"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button class="botao__projetos">
+                          <img
+                            src="/assets/git.png"
+                            alt="Repositorio"
+                            class="imagem__botao"
+                          />
+                          Repositorio
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+        </div>
+
+        <div id="conteudo3" class="conteudo" style="display: none;">
+          <div class="container__projetos">
                     <img
                       class="imagem__projetos"
                       src="/assets/AluraBooks.jpg"
@@ -147,45 +233,14 @@
                       </a>
                     </div>
                   </div>
-                  <div class="container__projetos">
-                    <img
-                      class="imagem__projetos"
-                      src="/assets/AluraBooks.jpg"
-                      alt=""
-                    />
-                    <div class="textos">
-                      <div class="projetos__titulo">
-                        <h2>AluraBooks</h2>
-                      </div>
-                      <div class="projetos__tecnologias">
-                        <h6>CSS</h6>
-                        <h6>HTML</h6>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="container__projetos">
-                    <img
-                      class="imagem__projetos"
-                      src="/assets/AluraBooks.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="container__projetos">
-                    <img
-                      class="imagem__projetos"
-                      src="/assets/AluraBooks.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+
+      </section>
     </section>
     <footer class="rodape">
       <p>Developed with &#x01F90D by Loredana Cardim</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
