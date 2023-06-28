@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico" />
     <title>Loredana's Portfolio</title>
-    <link rel="stylesheet" href="./styles/style2.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/cabecalho.css">
+    <link rel="stylesheet" href="./styles/responsivo.css" />
   </head>
   <body>
     <header class="cabecalho">
@@ -22,7 +25,26 @@
           </li>
         </ul>
       </nav>
+
+      <div class="container__cabecalho">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__rotulo">
+          <span class="cabecalho__menu-hamburguer"></span>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#inicio" class="lista-menu__link">Home</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#about-menu" class="lista-menu__link">About me</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#projetos" class="lista-menu__link">Projects</a>
+          </li>
+        </ul>
+      </div>
     </header>
+
     <section id="inicio" class="inicio">
       <div class="container__caixa">
         <div class="textos">

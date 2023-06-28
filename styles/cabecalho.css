@@ -1,0 +1,36 @@
+.cabecalho {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: var(--sombreado) 2px 3px 66px 7px;
+  transition: all 0.5s ease 0s;
+  background-color: var(--preto);
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  padding: 5px;
+}
+
+.opcoes {
+}
+
+.topicos {
+  list-style-type: none;
+}
+
+.topicos__nomes {
+}
+
+.topicos__links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.container__cabecalho {
+  display: none;
+}
